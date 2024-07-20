@@ -16,7 +16,7 @@
     受nerf启发,对lss深度采样(Depth-guided )，让深度不再是固定间隔
     
 
-    同样是否可以采用offset network的方式来对图像梯度变化大的地方多采样(the guidance of pixel region )
+    同样是否可以采用类似注意力的方式来对图像梯度变化大的地方多采样(the guidance of pixel region )
 
 # EA-LSS:
 [ Edge-aware Lift-splat-shot Framework for 3D BEV Object Detection](https://arxiv.org/pdf/2303.17895)

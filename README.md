@@ -124,7 +124,7 @@ points[:,:,:,:,:,-1,0] = samples.frustums.starts.reshape(B,N,8,41).permute(0, 1,
 
  
     
-再一个就是图像梯度变化大的地方多采样(the guidance of pixel region )，其实这里和EA-LSS解决深度跳变就有异曲同工之妙了，都希望可以细化深度，我的稠密深度监督应该也没问题
+再一个就是图像梯度变化大的地方多采样(the guidance of pixel region )，其实这里和EA-LSS解决深度跳变就有异曲同工之妙了，都希望可以用一些类似注意力机制来细化深度，我的如果加上稠密深度监督应该会更好
 ![](./lss_images/image2.png)
 <details>
   <summary>code</summary>
